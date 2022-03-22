@@ -1,37 +1,114 @@
-## Welcome to GitHub Pages
+<html>
 
-You can use the [editor on GitHub](https://github.com/Tuchie0001/resume/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <title>Tuts' Resume</title>
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body>
+  <h1 class="profile name"><a href="https://www.facebook.com/alexis.j0se/" target="_blank" class="profile name"></a>
+  </h1>
+  <table class="table-1">
+    <tbody>
+      <tr>
+        <td><img class="profile" src="tuts.jpg" alt="Alexis Profile Picture" width="250px" height="250px"></td>
+        <td>
 
-### Markdown
+          <ul>
+            <h1>Alexis Jose</h1>
+            <li>Studied Bachelor of Science in Information Technology at <a class="study"
+                href="https://www.facebook.com/PamantasanNgLungsodNgValenzuelaOfficialAccount"
+                target="_blank">Pamantasan ng Lungsod ng Valenzuela</a></li>
+            <li>Works at <a class="work" href="https://www.facebook.com/ourdailybreadpilipinas/" target="_blank">Our
+                Daily Bread Pilipinas</a></li>
+            <li>Lives in <a class="place"
+                href="https://www.facebook.com/places/Things-to-do-in-Valenzuela-City/108450295845257/"
+                target="_blank">Valenzuela City</a></li>
+          </ul>
+        </td>
+      </tr>
+    </tbody>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  </table>
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+  <h3>SKILLS</h3>
+  <table cellspacing="20">
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <td>iOS Development</td>
+            <td>🌟🌟🌟</td>
+          </tr>
+          <tr>
+            <td>Web Development</td>
+            <td>🌟🌟🌟🌟</td>
+          </tr>
+          <tr>
+            <td>Photography</td>
+            <td>🌟🌟🌟🌟🌟</td>
+          </tr>
+        </table>
+      </td>
 
-1. Numbered
-2. List
+      <td>
+        <table>
+          <tr>
+            <td>iOS Development</td>
+            <td>🌟🌟🌟</td>
+          </tr>
+          <tr>
+            <td>Web Development</td>
+            <td>🌟🌟🌟🌟</td>
+          </tr>
+          <tr>
+            <td>Photography</td>
+            <td>🌟🌟🌟🌟🌟</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
 
-**Bold** and _Italic_ and `Code` text
+  <form class="" action="index.html" method="post">
+    <label for="name">Name (4 to 8 characters):</label>
 
-[Link](url) and ![Image](src)
-```
+    <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10">
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
+    <input type="checkbox" name="" value="">
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Tuchie0001/resume/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+    <label for="textInput">Note the red caret:</label>
+    <input id="textInput" class="custom" size="32">
+  </form>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+  <form>
+    <label for="name">Enter username (upper and lowercase letters): </label>
+    <input type="text" name="name" id="name" required pattern="[A-Za-z]+">
+    <button>Submit</button>
+  </form>
+
+
+  <hr>
+  <form action="mailto:alexisjose00010111@gmail.com" method="post" enctype="text/plain">
+    <label>Your Name</label>
+    <input type="text" name="yourName" value="">
+    <br>
+    <label for="Email">Your Email</label>
+    <input type="email" name="yourEmail" id="">
+    <br>
+    <label for="your message">Your Message</label><br>
+    <textarea name="yourMessage" id="" cols="30" rows="10"></textarea>
+    <br>
+    <input type="submit" name="" id="">
+  </form>
+
+
+
+
+</body>
+
+</html>
